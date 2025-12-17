@@ -1,0 +1,28 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.action-btn {
+  border: none;
+  padding: 16px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgba(109, 109, 238, 0.845);
+}
+
+.action-btn:hover {
+  background-color: rgba(186, 186, 243, 0.845);
+}
+
+#content {
+  width: 500px;
+  margin: 0 auto;
+  background: rgb(238, 236, 236);
+  border-radius: 20px;
+  padding: 16px;
+}
